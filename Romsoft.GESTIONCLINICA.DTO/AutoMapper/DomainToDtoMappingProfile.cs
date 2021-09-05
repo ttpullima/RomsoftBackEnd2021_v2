@@ -166,6 +166,8 @@ namespace Romsoft.GESTIONCLINICA.DTO.AutoMapper
             Mapper.CreateMap<Entidades.FAR_PRODUCTO.FAR_PRODUCTOByIdReq, TABLAS.FAR_PRODUCTO.FAR_PRODUCTOByIdReqDTO>();
             Mapper.CreateMap<Entidades.FAR_PRODUCTO.FAR_PRODUCTORes, TABLAS.FAR_PRODUCTO.FAR_PRODUCTOResDTO>();
 
+            Mapper.CreateMap<Entidades.FAR_CONSIGNACION.FAR_CONSIGNACION, TABLAS.FAR_CONSIGNACION.FAR_CONSIGNACIONDTO>();
+            
 
 
         }
